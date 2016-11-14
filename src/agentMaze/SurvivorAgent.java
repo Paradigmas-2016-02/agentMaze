@@ -12,7 +12,8 @@ public class SurvivorAgent extends Agent {
 
 	private AID mockup = null;
 	private final int SPEED = 3;
-	private boolean walking = true;
+	private int stamine = 10;
+	private boolean running = false;
 	private boolean avoiding = false;
 	private int positionX;
 	private int positionY;
